@@ -73,7 +73,6 @@
   border-radius:50%;
   color:black;
   font-weight:bold;
-  transition: 0.5s;
   background:  #98d9e4;; 
   border: 3px solid #98d9e4;
   margin-top: 170px;
@@ -88,19 +87,19 @@
   position: absolute;
   margin:20px;
   float:right;
-  top:160px;
-  left:430px;
+  top:150px;
+  left:400px;
 }
 
 #door{
   background-image: url('/public/images/istockphoto-481547058-612x612.jpg');
   background-size: cover;
   position:absolute;
-  left:52px;
-  top:196px;
+  left:112px;
+  top:246px;
   border:3px solid grey;
-  width:400px;
-  height:400px;
+  width:280px;
+  height:280px;
   border-radius:50%;
   font-size:40px;
   
@@ -124,17 +123,16 @@
 }
 
 #clothes{
-  opacity:0.1;
-  background-image: url('/public/images/download.jpg');
+  opacity:1;
+  background-image: url('/public/images/laundry\ 2.jpg');
   background-position: center;
   background-size: cover;
-  width:300px;
-  height:300px;
+  width:290px;
+  height:290px;
   border-radius:50%;
   position:absolute;
-  left:106px;
-  top:248px;
-  margin-left:100px;
+  top:246px;
+  margin-left:110px;
 }
 
 #display{
@@ -164,7 +162,7 @@
 }
 
 #laundry{
-  background-image:url('/public/images/laundry\ 2.jpg');
+  background-image:url('/public/images/istockphoto-481547058-612x612.jpg');
   width:280px;
   height:280px;
   background-position: center;
@@ -174,9 +172,7 @@
   left:225px;
   border-radius: 50%;
 }
-.open#laundry{
-  background-image: none;
-}
+
 #liquid{
   background-image:url('/public/images/persil.webp');
   width:100px;
@@ -198,6 +194,3 @@
       transform: rotate(360deg);
   }
 }
-
-
-
